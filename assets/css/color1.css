@@ -23544,3 +23544,37 @@ body.dark {
   z-index: 1;
   background: rgb(0 0 0 / 60%);
 } 
+
+.lists li {
+  display: block;
+  padding: 8px 0;
+}
+.lists img {
+  width: 30px;
+}
+.accordion-button:not(.collapsed), .accordion-button {
+  border: 1px solid #fff;
+  border-radius: 10px !important;
+  background-color: transparent;
+}
+.accordion-button:not(.collapsed),
+.accordion-button.collapsed {
+  color: #fff;
+}
+.accordion-body {
+  color: #fff;
+}
+
+.accordion-collapse {
+  border: none;
+}
+.app-section .app-box .accordion-item h2 {
+  margin-bottom: 0;
+}
+
+.accordion-button.collapsed {
+  border-bottom-width: 1px;
+}
+.accordion-item {
+  margin-bottom: 15px;
+}
