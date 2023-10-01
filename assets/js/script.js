@@ -3,7 +3,7 @@
 
     
     /*=====================
-     1.Loader
+     Loader
      ==========================*/
 
     $(window).on('load', function () {
@@ -14,7 +14,20 @@
     });
 
     /*=====================
-     2.Tap to Top
+     Add Class on scroll
+     ==========================*/
+    $(window).scroll(function() {
+        if($(this).scrollTop() > 0)
+        {
+            $('.overlay-black').addClass('affix');
+        } else
+        {
+            $('.overlay-black').removeClass('affix');
+        }  
+    });
+
+    /*=====================
+     Tap to Top
      ==========================*/
 
     $(window).on('scroll', function () {
